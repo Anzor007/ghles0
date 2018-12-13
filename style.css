@@ -1,8 +1,8 @@
-
-
+/**/
+/**/
 #blst{
-  font-family: georgia, serif;
-  color: green;
+  font-family: georgia, serif;/**/
+  color: green;/**/
 }
 
 .bl{
@@ -25,11 +25,11 @@
   border-top-right-radius:20px; /*закругление верхний правый*/
   background-color:#00ccff;     /*цвет фона*/
   text-shadow: 4px 5px 4px red;     /*смещение смещение размытие цвет;*/
-  text-size-adjust:100px;
+  text-size-adjust:100px;      /**/
   font-size: 30px;              /*размер шрифта*/
-  margin:2px;
-  margin-top: 20px;
-  padding:5px;
+  margin:2px;		/**/
+  margin-top: 20px;		/**/
+  padding:5px;		/**/
   /*color:black;                  /*цвет шрифта*/
   /*float: left;                  /*Задаем обтекание*/
   line-height: 50px;            /*Высота строки*/
@@ -62,5 +62,5 @@
 }
 
 .box div{
-  display:inline-block;
+  display:inline-block;/**/
 }/**/
