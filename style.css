@@ -1,0 +1,66 @@
+
+
+#blst{
+  font-family: georgia, serif;
+  color: green;
+}
+
+.bl{
+  border-style:solid;           /*dotted;  /*границы прорисованы точками*/
+  border-color:red;             /* цвет границ красный*/
+  border-width:6px;             /*толщина границ 6*/
+  border-top-style:solid;       /*границы прорисованы точками*/
+  border-top-color:red;         /* цвет границ красный*/
+  border-top-width:6px;         /*толщина границ 6*/
+  border-bottom-style:dotted;   /*границы прорисованы точками*/
+  border-bottom-color:black;    /* цвет границ красный*/
+  border-bottom-width:10px;     /*толщина границ 6*/
+  border-left-style:solid;      /*границы прорисованы точками*/
+  border-left-color:red;        /* цвет границ красный*/
+  border-left-width:50px;       /*толщина границ 6*/
+  border-right-style:solid;     /*границы прорисованы точками*/
+  border-right-color:red;       /* цвет границ красный*/
+  border-right-width:50px;      /*толщина границ 6*/
+  border-top-left-radius:20px;  /*закругление верхний левй*/
+  border-top-right-radius:20px; /*закругление верхний правый*/
+  background-color:#00ccff;     /*цвет фона*/
+  text-shadow: 4px 5px 4px red;     /*смещение смещение размытие цвет;*/
+  text-size-adjust:100px;
+  font-size: 30px;              /*размер шрифта*/
+  margin:2px;
+  margin-top: 20px;
+  padding:5px;
+  /*color:black;                  /*цвет шрифта*/
+  /*float: left;                  /*Задаем обтекание*/
+  line-height: 50px;            /*Высота строки*/
+  width: 500px;                 /*Фиксируем ширину блока*/
+  text-align: center;           /*Центрируем текст по горизонтали*/
+  /*display: flex;/**/
+}
+
+.bl0{
+  border-style:solid;/**/
+  border-color:green;/**/
+  border-width:6px;/**/
+  border-radius:40px;/**/
+  display: flex;/**/ 
+  /*display: block;/**/
+  text-align: center; /**/
+  background-color:#00ccff;     /*цвет фона*/
+  width: 100px;/**/
+  color:red;/**/
+}
+
+.bobo{ /*контейнер для box-ов*/
+  /*overflow:hidden; /**/
+  width:500px; /*размер контейнера для боксов*/
+}
+
+.box{
+  white-space:nowrap;/**/
+  /*display:inline-block;/*формирование блочно строчного элемента*/
+}
+
+.box div{
+  display:inline-block;
+}/**/
